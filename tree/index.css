@@ -1,0 +1,55 @@
+.git-tree {
+    position: fixed;
+    width: 230px;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: 1000;
+}
+
+.tree-header {
+    height: 46px;
+    padding: 3px 10px;
+    border-bottom: 1px solid #ddd;
+    width: 230px;
+    background-color: #F3F3F3;
+    border-right: 1px solid #ddd;
+}
+
+.tree-header span {
+    padding-left: 10px;
+}
+
+.tree-btn {
+    width: 30px;
+    height: 30px;
+    position: fixed;
+    margin: 10px;
+    left: 180px;
+    top: -3px;
+    background-color: #fff;
+    color: #446e9b;
+    font-size: 30px !important;
+    font-weight: bold;
+    z-index: 2000;
+    cursor: pointer;
+    border-radius: 3px;
+    text-align: center;
+}
+
+.jstree-gitlab {
+    background-position: -4px -4px !important;
+}
+.file-nav {
+    position: fixed;
+    top: 46px;
+    bottom: 0;
+    left: 0;
+    width: 230px;
+    background-color: #F3F3F3;
+    border-right: 1px solid #ddd;
+    overflow: auto;
+}
+.file-nav > ul {
+    padding-bottom: 20px;
+}

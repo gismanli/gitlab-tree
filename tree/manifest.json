@@ -1,0 +1,28 @@
+{
+  "manifest_version": 2,
+  "name": "Baidu GitLab Tree",
+  "description": "The plugin of baidu gitLab tree",
+  "version": "1.0",
+  "author": "gismanli",
+  "permissions": [
+    "storage"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": [
+        "libs/jquery.min.js",
+        "libs/jquery.pjax.js",
+        "libs/jstree.js",
+        "index.js"
+      ],
+      "css": [
+        "css/jstree.css",
+        "index.css"
+      ]
+    }
+  ],
+  "browser_action": {
+    "default_icon": "icon.png"
+  }
+}
