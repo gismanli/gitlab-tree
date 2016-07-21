@@ -18,6 +18,17 @@
 
 .tree-header span {
     padding-left: 10px;
+    white-space: nowrap;
+    width: 80%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: inline-block;
+    line-height: 14px;
+    vertical-align: middle;
+}
+
+.tree-header i {
+    vertical-align: middle;
 }
 
 .tree-btn {
@@ -37,9 +48,6 @@
     text-align: center;
 }
 
-.jstree-gitlab {
-    background-position: -4px -4px !important;
-}
 .file-nav {
     position: fixed;
     top: 46px;
@@ -49,6 +57,7 @@
     background-color: #F3F3F3;
     border-right: 1px solid #ddd;
     overflow: auto;
+    padding-top: 10px;
 }
 .file-nav > ul {
     padding-bottom: 20px;

@@ -175,9 +175,9 @@
             '<div class="tree-header">' +
             '<div class="info">' +
             '<i class="fa fa-lock"></i>' +
-            '<a href="' + path_with_namespace + '" target="_blank">' +
-            '<span>' + path_with_namespace + '</span>' +
-            '</a>' +
+            '<span>' +
+                '<a href="' + path_with_namespace + '" target="_blank">' + path_with_namespace + '</a>' +
+            '</span>' +
             '</div>' +
             '<i class="fa fa-code-fork"></i>' +
             '<span class="branch">' + repository_ref + '</span>' +
